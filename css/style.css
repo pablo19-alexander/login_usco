@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: open sans;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: linear-gradient(rgba(5, 7, 12, 0.51), rgba(5, 7, 12, 0.51)), url(../img/children-g3e65b9385_1920.jpg);
+    /* background-color: #E5DDB8; */
+    /* background: linear-gradient(27deg, #EFEAD3 50%, #E5DDB8 50%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-logo {
+    padding: 3% 6%;
+}
+
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 3px;
+    background-color: #ffffffcc;
+    border: solid 1px #8F141B;
+    margin: 10px auto;
+}
+
+.form-body img {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 85%;
+    padding-left: 10px;
+    color: #8F141B;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    /* font-family: verdana, arial, helvet; */
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[type="password"] {
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: rgba(94, 86, 86, 0.596);
+}
+
+.form-body input:hover {
+    transition: .5s;
+    border: 1px solid #8F141B;
+    color: #000000;
+}
+
+.form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 20%;
+    background-color: #DFD4A6;
+    color: #8F141B;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #DFD4A6;
+    transition: all .5s ease;
+}
+
+.form-body button:hover {
+    color: #DFD4A6;
+    border: 1px solid #8F141B;
+    background: linear-gradient(#8F141B, #502c2c);
+}

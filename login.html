@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--para tener un mejor pocicionamiento-->
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="parque arqueologico">
+    <!--responcit-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - registro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://www.usco.edu.co/imagen-institucional/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="header-logo" src="./img/universidad-surcolombiana.png" alt="">
+    </header>
+    <main class="form-body">
+        <img src="./img/universidad-surcolombiana-v.png" alt="user-login">
+        <p class="text">Inicio de Sesion</p>
+        <!-- login -->
+        <form action="php/login_usuario_be.php" method="POST" class="login.form">
+            <input type="text" name="usuario" autofocus="true" required="true" placeholder="Usuario">
+            <input type="password" name="password" autofocus="true" required="true" placeholder="Contraseña">
+            <button>Entrar</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
